@@ -69,6 +69,7 @@ def add_session(request):
 
 #### 如果出现报错如下：
 ![](https://user-gold-cdn.xitu.io/2019/12/27/16f4583eb7ca808e?w=651&h=91&f=png&s=8977)
+
 上面截图的报错是因为在使用session时没有生成迁移文件和创建数据表造成的。
 解决办法:
 ```
